@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alecto</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./font-awesome/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header id="home">
+    	<nav id="nav">
+    		<div class="nav-center">
+    			<div class="nav-header">
+    				<!--logo-->
+            <h4 class="logo">Alecto.</h4>
+            <!--small screen header-->
+    				<button class="nav-toggle">
+    					<i class="fas fa-bars"></i>
+    				</button>
+    			</div>
+    			<!--links -->
+    			<div class="links-container">
+    				
+    				<ul class="links">
+  <li>
+    <a href="#home" >home</a>
+  </li>
+  <li>
+    <a href="#about">about</a>
+  </li>
+  <li>
+    <a href="#work">work</a>
+  </li>
+  <li>
+    <a href="#services" >services</a>
+  </li>
+  <li>
+    <a href="#blog">blog</a>
+  </li>
+</ul>
+	</div>
+	 </div>
+      </nav>
+      <!--carousel-->
+    	<div class="banner">
+    		<div class="container">
+          <a onclick="changeSlide(-1)" class="prev"><i class="fas fa-angle-left"></i></a>
+          <a onclick="changeSlide(1)" class="next"><i class="fas fa-angle-right"></i></a>
+    			<h1 id="banner-title"><span>Lorem</span> ipsum dolor sit amet</h1>
+    			<p>
+    			 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    			</p>
+          <a href="#" class="btn btn-carousel">Learn more</a>
+          <div class="carousel-bullets">
+            <div class="bullet"></div>
+            <div class="bullet"></div>
+            <div class="bullet"></div>
+            <div class="bullet"></div>
+            <div class="bullet"></div>
+          </div>
+    		</div>
+    	</div>
+    </header>
+    <!--about section-->
+    <section id="about" class="section">
+        <h2 class="title">About us</h2>
+         <hr>
+        <p>Obcaecati architecto iusto harum cumque earum consequuntur molestiae veritatis quas perferendis aliquam.<p>
+        <div class="about-content">
+          <!--about-elements-->
+      <div class="element">    
+        <div class="icon-container">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <h4>Lorem ipsum</h4>
+        <p class="element-text">Ipsam alias deleniti consectetur
+          perspiciatis et officia delectus porro quis, commodi molestias ipsum.</p>
+          
+      </div>
+      <div class="element">
+        <div class="icon-container vibrant" >
+         <i class="fab fa-react"></i>
+        </div>
+        <h4>Lorem ipsum</h4>
+        <p class="element-text">Ipsam alias deleniti consectetur
+          perspiciatis et officia delectus porro quis, commodi molestias ipsum.</p>
+         
+      </div>
+      <div class="element">
+      <div class="icon-container">
+        <i class="fas fa-chart-line"></i>
+      </div>
+      <h4>Lorem ipsum</h4>
+      <p class="element-text">Ipsam alias deleniti consectetur
+        perspiciatis et officia delectus porro quis, commodi molestias ipsum.</p>
+       
+      </div>
+      <div class="element">
+      <div class="icon-container">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <h4>Lorem ipsum</h4>
+      <p class="element-text">Ipsam alias deleniti consectetur
+        perspiciatis et officia delectus porro quis, commodi molestias ipsum.</p>
+      
+      </div>
+     
+    </div>
+    <!--button-->
+    <div class="btn-container">
+    <button class="btn">Learn more</button>
+    </div>
+    </section>
+    <!--work-section-->
+    <section id="work" class="sub-section work">
+    <div class="section-content">
+    <h3>Lorem ipsum</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione perspiciatis error laborum dolores, voluptate aut suscipit inventore quis blanditiis omnis voluptatum soluta architecto neque quasi quia repellat facilis culpa ex!</p>
+      <button class="btn">Learn more</button>
+  </div>
+    <img src="img/photo3.png" alt="img" class="img-article">
+   
+    </section>
+  <!--services section-->
+    <section id="services" class="sub-section services">
+      <div class="section-content">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione perspiciatis error laborum dolores, voluptate aut
+          suscipit inventore quis blanditiis omnis voluptatum soluta architecto neque quasi quia repellat facilis culpa ex!
+        </p>
+          <button class="btn">Learn more</button>
+      </div>
+      <img src="img/photo4.png" alt="img" class="img-article">
+    	
+    </section>
+
+    
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
